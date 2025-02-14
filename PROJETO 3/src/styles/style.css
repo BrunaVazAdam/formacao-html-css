@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--white-grey-color);
+    /* height: 100vh; */
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 2% 0 1% 15%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-family: var(--font-montserrat);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--blue-color);
+    text-decoration: none;
+}
+
+.presentation {
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.presentation__section {
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.presentation__section__title {
+    font-family: var(--font-krona-one);
+    font-size: 27px;
+}
+
+.presentation__section__title strong {
+    color: var(--blue-color);
+}
+
+.presentation__section__paragraph {
+    font-family: var(--font-montserrat);
+    font-size: 18px;
+}
+
+.presentation__img {
+    width: 100%;
+    height: auto;
+}
+
+.presentation__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+
+.presentation__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.buttons__subtitle {
+    font-family: var(--font-krona-one);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.buttons__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    width: 250px;
+    border: 1.5px solid var(--blue-color);
+    border-radius: 8px;
+    padding: 16px;
+    font-family: var(--font-montserrat);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    color: var(--white-grey-color);
+}
+
+.buttons__button:hover {
+    background-color: var(--bt-hover);
+}
+
+.buttons__button img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
+    background-color: var(--blue-color);
+    padding: 18px;
+    font-family: var(--font-montserrat);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+
+}
